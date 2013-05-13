@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="WPCloudApp" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="1" osVersion="*">
+  <Role name="WPCloudApp.Web">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=mponazure;AccountKey=jGn0h/i5VNIa4Mb6xOgwPuuSdbWC2pfcY86VjOODmGzSzCLkBrF7FqtNAYFK9qHoCAQrZK4p5oAyWupgh8aEGQ==" />
+      <Setting name="DataConnectionString" value="DefaultEndpointsProtocol=http;AccountName=mponazure;AccountKey=jGn0h/i5VNIa4Mb6xOgwPuuSdbWC2pfcY86VjOODmGzSzCLkBrF7FqtNAYFK9qHoCAQrZK4p5oAyWupgh8aEGQ==" />
+      
+      <Setting name="ContainerSASExperiationTime" value="10" />
+      <Setting name="BlobSASExperiationTime" value="10" />
+      
+      
+      
+      <Setting name="realm" value="uri:wpcloudapp" />
+      <Setting name="serviceKey" value="YOUR KEY HERE" />
+      <Setting name="trustedIssuersIdentifier" value="https://YOUR NAMESPACE HERE.accesscontrol.windows.net/" />
+      <Setting name="trustedIssuerName" value="WPCloudApp" />
+      
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="SslCertificate" thumbprint="F8ACE24A36F93B006BFAF495F6C14FB827AC61A3" thumbprintAlgorithm="sha1" />
+      
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

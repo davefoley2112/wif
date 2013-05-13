@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsToClaimsAuth", "WindowsToClaimsAuth\WindowsToClaimsAuth.csproj", "{B1D36B72-8DAC-4342-A2C5-246F35BC049B}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WindowsToClaimsAuth_STS", "WindowsToClaimsAuth_STS", "{0BBC8793-2CAC-4E62-BAB0-59029286FED3}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/WindowsToClaimsAuth_STS"
+		Debug.AspNetCompiler.PhysicalPath = "WindowsToClaimsAuth_STS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WindowsToClaimsAuth_STS\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WindowsToClaimsAuth_STS"
+		Release.AspNetCompiler.PhysicalPath = "WindowsToClaimsAuth_STS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WindowsToClaimsAuth_STS\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58416"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E406AF07-705A-4AF1-9A46-C18D6B947327}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1D36B72-8DAC-4342-A2C5-246F35BC049B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D36B72-8DAC-4342-A2C5-246F35BC049B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D36B72-8DAC-4342-A2C5-246F35BC049B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D36B72-8DAC-4342-A2C5-246F35BC049B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BBC8793-2CAC-4E62-BAB0-59029286FED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BBC8793-2CAC-4E62-BAB0-59029286FED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BBC8793-2CAC-4E62-BAB0-59029286FED3}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BBC8793-2CAC-4E62-BAB0-59029286FED3}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

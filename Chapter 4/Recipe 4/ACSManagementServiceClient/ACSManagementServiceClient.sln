@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACSManagementServiceClient", "ACSManagementServiceClient\ACSManagementServiceClient.csproj", "{7AA3CB14-E5D4-4B6A-BB9B-3A319415E7DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0C10D307-00D3-4BA1-94A3-650B117603AC}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AA3CB14-E5D4-4B6A-BB9B-3A319415E7DF}.Debug|x86.ActiveCfg = Debug|x86
+		{7AA3CB14-E5D4-4B6A-BB9B-3A319415E7DF}.Debug|x86.Build.0 = Debug|x86
+		{7AA3CB14-E5D4-4B6A-BB9B-3A319415E7DF}.Release|x86.ActiveCfg = Release|x86
+		{7AA3CB14-E5D4-4B6A-BB9B-3A319415E7DF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

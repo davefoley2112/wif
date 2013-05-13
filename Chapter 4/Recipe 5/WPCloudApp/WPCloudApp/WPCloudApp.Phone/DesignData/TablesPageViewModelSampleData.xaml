@@ -1,0 +1,21 @@
+﻿<models:TablesPageViewModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:entities="clr-namespace:Microsoft.Samples.WindowsPhoneCloud.StorageClient;assembly=WindowsPhoneCloud.StorageClient"
+    xmlns:models="clr-namespace:WPCloudApp.Phone.ViewModel"
+    Message="Loading..."
+    IsLoading="true">
+
+    <models:TablesPageViewModel.Table>
+        <entities:TableServiceSchema TableName="Table_1" />
+        <entities:TableServiceSchema TableName="Table_2" />
+        <entities:TableServiceSchema TableName="Table_3" />
+        <entities:TableServiceSchema TableName="Table_4" />
+        <entities:TableServiceSchema TableName="Table_5" />
+        <entities:TableServiceSchema TableName="Table_6" />
+        <entities:TableServiceSchema TableName="Table_7" />
+        <entities:TableServiceSchema TableName="Table_8" />
+        <entities:TableServiceSchema TableName="Table_9" />
+        <entities:TableServiceSchema TableName="Table_10" />
+    </models:TablesPageViewModel.Table>
+</models:TablesPageViewModel>

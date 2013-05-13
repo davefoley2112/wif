@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X509CertificateHelper", "X509CertificateHelper\X509CertificateHelper.csproj", "{13148BE0-7AEF-4946-A2A8-AEE13538DBE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA9FFA44-5B93-41B6-8B86-47C577703C73}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13148BE0-7AEF-4946-A2A8-AEE13538DBE0}.Debug|x86.ActiveCfg = Debug|x86
+		{13148BE0-7AEF-4946-A2A8-AEE13538DBE0}.Debug|x86.Build.0 = Debug|x86
+		{13148BE0-7AEF-4946-A2A8-AEE13538DBE0}.Release|x86.ActiveCfg = Release|x86
+		{13148BE0-7AEF-4946-A2A8-AEE13538DBE0}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

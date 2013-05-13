@@ -1,0 +1,17 @@
+﻿<models:ListBlobsPageViewModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:entities="clr-namespace:Microsoft.Samples.WindowsPhoneCloud.StorageClient;assembly=WindowsPhoneCloud.StorageClient"
+    xmlns:models="clr-namespace:WPCloudApp.Phone.ViewModel"
+    HasResults="true"
+    Message="Listing..."
+    Prefix="blobPrefix">
+
+    <models:ListBlobsPageViewModel.CloudBlobs>
+        <entities:CloudBlob BlobName="Blob 1" Uri="http://myaccount.blob.core.windows.net/mycontainer/blob-1" />
+        <entities:CloudBlob BlobName="Blob 2" Uri="http://myaccount.blob.core.windows.net/mycontainer/blob-2" />
+        <entities:CloudBlob BlobName="Blob 3" Uri="http://myaccount.blob.core.windows.net/mycontainer/blob-3" />
+        <entities:CloudBlob BlobName="Blob 4" Uri="http://myaccount.blob.core.windows.net/mycontainer/blob-4" />
+        <entities:CloudBlob BlobName="Blob 5" Uri="http://myaccount.blob.core.windows.net/mycontainer/blob-5" />
+    </models:ListBlobsPageViewModel.CloudBlobs>
+</models:ListBlobsPageViewModel>

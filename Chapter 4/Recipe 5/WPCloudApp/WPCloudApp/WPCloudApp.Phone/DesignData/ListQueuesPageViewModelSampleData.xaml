@@ -1,0 +1,17 @@
+﻿<models:ListQueuesPageViewModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:entities="clr-namespace:Microsoft.Samples.WindowsPhoneCloud.StorageClient;assembly=WindowsPhoneCloud.StorageClient"
+    xmlns:models="clr-namespace:WPCloudApp.Phone.ViewModel"
+    HasResults="true"
+    Message="Listing..."
+    Prefix="queuePrefix">
+
+    <models:ListQueuesPageViewModel.CloudQueues>
+        <entities:CloudQueue Name="Queue 1" Uri="http://myaccount.queue.core.windows.net/queue1" />
+        <entities:CloudQueue Name="Queue 2" Uri="http://myaccount.queue.core.windows.net/queue2" />
+        <entities:CloudQueue Name="Queue 3" Uri="http://myaccount.queue.core.windows.net/queue3" />
+        <entities:CloudQueue Name="Queue 4" Uri="http://myaccount.queue.core.windows.net/queue4" />
+        <entities:CloudQueue Name="Queue 5" Uri="http://myaccount.queue.core.windows.net/queue5" />
+    </models:ListQueuesPageViewModel.CloudQueues>
+</models:ListQueuesPageViewModel>

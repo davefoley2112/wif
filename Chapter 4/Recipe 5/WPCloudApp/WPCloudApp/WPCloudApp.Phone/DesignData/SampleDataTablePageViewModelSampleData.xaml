@@ -1,0 +1,19 @@
+﻿<models:SampleDataTablePageViewModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="clr-namespace:WPCloudApp.Phone.ViewModel"
+    xmlns:entities="clr-namespace:WPCloudApp.Phone.Models"
+    Message="Loading..."
+    IsLoading="true">
+
+    <models:SampleDataTablePageViewModel.Table>
+        <entities:SampleData Name="Name 1" Description="Description 1" Number="1" Date="2011/01/01 00:01AM" />
+        <entities:SampleData Name="Name 2" Description="Description 2" Number="2" Date="2011/01/01 00:02AM" />
+        <entities:SampleData Name="Name 3" Description="Description 3" Number="3" Date="2011/01/01 00:03AM" />
+        <entities:SampleData Name="Name 4" Description="Description 4" Number="4" Date="2011/01/01 00:04AM" />
+        <entities:SampleData Name="Name 5" Description="Description 5" Number="5" Date="2011/01/01 00:05AM" />
+        <entities:SampleData Name="Name 6" Description="Description 6" Number="6" Date="2011/01/01 00:06AM" />
+        <entities:SampleData Name="Name 7" Description="Description 7" Number="7" Date="2011/01/01 00:07AM" />
+    </models:SampleDataTablePageViewModel.Table>
+    
+</models:SampleDataTablePageViewModel>

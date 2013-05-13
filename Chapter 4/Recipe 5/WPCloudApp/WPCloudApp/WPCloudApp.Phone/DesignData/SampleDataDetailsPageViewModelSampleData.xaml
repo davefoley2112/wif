@@ -1,0 +1,13 @@
+﻿<models:SampleDataDetailsPageViewModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="clr-namespace:WPCloudApp.Phone.ViewModel"
+    xmlns:entities="clr-namespace:WPCloudApp.Phone.Models"
+    Message="Saving..."
+    IsSaving="True">
+
+    <models:SampleDataDetailsPageViewModel.SampleData>    
+        <entities:SampleData PartitionKey="Partition Key" RowKey="Row Key" Name="Sample Name" Description="Sample Description" Number="100" Date="2011/01/01 00:00AM"/>
+    </models:SampleDataDetailsPageViewModel.SampleData>
+
+</models:SampleDataDetailsPageViewModel>

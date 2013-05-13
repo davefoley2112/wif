@@ -1,0 +1,47 @@
+﻿<UserControl 
+    x:Class="WPCloudApp.Phone.PivotContent.TablesPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DataContext="{d:DesignData ../DesignData/TablesPageViewModelSampleData.xaml}"    
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="696"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}">
+    
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            
+            <ListBox Grid.Row="0" Margin="0,-17,0,0" BorderThickness="0" ItemsSource="{Binding Table}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal" Margin="12,15,12,15">
+                            <Button Content="Delete" Style="{StaticResource ButtonDeleteStyle}" Click="OnDeleteTable" Tag="{Binding}" />
+                            <TextBlock Text="{Binding TableName}" HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="{StaticResource PhoneFontFamilyLight}" FontSize="{StaticResource PhoneFontSizeLarge}" Foreground="{StaticResource PhoneForegroundBrush}" TextWrapping="Wrap" LineStackingStrategy="BlockLineHeight" LineHeight="43" Margin="10,0,0,0"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <StackPanel Grid.Row="1" Margin="12,0,12,12" Orientation="Vertical" VerticalAlignment="Bottom">
+                <TextBlock Height="Auto" HorizontalAlignment="Left" Margin="15,2,0,0" Text="{Binding Message}" VerticalAlignment="Bottom" TextWrapping="Wrap" />
+                <ProgressBar Height="20" IsIndeterminate="True" Visibility="{Binding IsLoading, Converter={StaticResource VisibilityConverter}}" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+
+</UserControl>

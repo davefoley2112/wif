@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  
+  <Identity Name="19562f23-367d-4b7d-b111-8d609b0dc9de"
+            Publisher="CN=sandeep.chanda"
+            Version="1.0.0.0" />
+  
+  <Properties>
+    <DisplayName>MetroAcsApplication</DisplayName>
+    <PublisherDisplayName>sandeep.chanda</PublisherDisplayName>
+    <Logo>Images\StoreLogo.png</Logo>
+    <Description>MetroAcsApplication</Description>
+  </Properties>
+  
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+  
+  <Resources>
+    <Resource Language="en-us"/>
+  </Resources>
+  
+  <Applications>
+    <Application Id="App" 
+        Executable="metroacsapplication.exe" 
+        EntryPoint="MetroAcsApplication.App">
+        <VisualElements 
+            DisplayName="MetroAcsApplication"
+            Logo="Images\Logo.png"
+            SmallLogo="Images\SmallLogo.png"
+            Description="MetroAcsApplication"
+            ForegroundText="light"
+            BackgroundColor="#222222">
+            <SplashScreen Image="Images\SplashScreen.png" />
+        </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
